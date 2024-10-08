@@ -47,9 +47,4 @@ async function login(){
 
 
 }
-function cadastroEndereco(){
 
-    let user = JSON.parse(localStorage.getItem("user"));
-    console.log(user.acess_token);
-    
-}
