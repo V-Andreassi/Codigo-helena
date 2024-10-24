@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../script/login.js"></script>
+    <link rel="stylesheet" href="../styles/login.css"> 
+    <title>Login</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <h1><a href="./home (2).html">Airbnb</a></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./home (2).html">Início</a></li>
+                <li><a href="./cadastro (1).html">Cadastre-se</a></li>
+                <li><a href="./login.html">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="form-container">
+        <h2>Login</h2>
+        <form>
+            
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" autocomplete="username" placeholder="Digite seu email" required/>
+
+            <label for="password">Senha:</label>
+            <input type="password" name="password" id="password" autocomplete="current-password" placeholder="Digite sua senha" required/>
+
+            <button type="button" onclick="login()">Enviar</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Airbnb. Todos os direitos reservados.</p>
+        <a href="#">Política de Privacidade</a>
+        <p class="small-text">Desenvolvido por Davi Fontenelle, Fabio Luz, Gustavo Guimarões, Helena Andreassi e Victor Andreassi</p>
+    </div>
+</body>
+</html>
